@@ -1,0 +1,28 @@
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary-green: #166534;
+  --color-primary-green-hover: #14532d;
+  --color-primary-green-dark: #0f3d20;
+  --color-accent-lime: #84cc16;
+  --color-accent-lime-hover: #65a30d;
+  --color-accent-lime-light: #ecfccb;
+  --color-app-bg: #f0fdf4;
+  --color-app-text: #1f2937;
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: rgba(132, 204, 22, 0.2);
+  border-radius: 9999px;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(132, 204, 22, 0.4);
+}
